@@ -1,0 +1,11 @@
+.gallery {
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 100px;
+    margin-top: 2rem;
+  }
+  .galleryItem {
+    flex-basis: 100%!important;
+    max-width: 100%!important;
+  }

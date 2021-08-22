@@ -1,0 +1,71 @@
+.sliderLayoutContainer{
+    background-color: #303030;
+}
+.sliderArrows {
+    color: white;
+}
+:global(.vtex-slider-layout-0-x-sliderLeftArrow){
+    position: absolute;
+    bottom: -40px;
+    left: 350px;
+}
+:global(.vtex-slider-layout-0-x-sliderRightArrow){
+    position: absolute;
+    bottom: -40px;
+    right: 350px;
+}
+
+:global(.vtex-slider-layout-0-x-paginationDotsContainer){
+    position: absolute;
+    bottom: -40px;
+}
+
+.slideChildrenContainer {
+    margin-top: 20px;
+}
+
+:global(.vtex-slider-layout-0-x-slide) {
+    background-color: #303030;
+}
+.paginationDot--isActive {
+    background-color: #59ff00;
+}
+
+.sliderLayoutContainer {
+    padding-bottom: 42px;
+}
+.sliderArrows {
+    bottom: 0;
+    color: white;
+    padding: 10px;
+}
+
+.sliderArrows:hover {
+    background-color: white;
+}
+.listContainer--tabList {
+    background-color: #212121;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    z-index: 50;
+    top: 5rem;
+  }
+  
+  /* list item tab */
+  .listItem--tabList :global(.vtex-button) {
+    background: transparent;
+    border: none;
+  }
+  .listItem--tabList :global(.vtex-button__label) {
+    color: #f9faf8;
+  }
+  .listItemActive--tabList :global(.vtex-button__label) {
+    color: #59FF02;
+  }
+  .listItem--tabList {
+    border-bottom: 2px solid #212121;
+    transition: border-bottom .5s;
+  }
+  .listItemActive--tabList, .listItem--tabList:hover {
+    border-bottom: 2px solid #59FF02;
+  }

@@ -1,0 +1,20 @@
+.openIconContainer {
+    background-color: #303030;
+   
+}
+.cartIcon {
+    color: #fff;
+    margin: 0;
+    font-size: 0.875rem;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 1.43;
+    background-color: #303030;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}

@@ -33,3 +33,6 @@
 .listItemActive :global(.vtex-button__label){
     color: #59ff00;
 }
+.listItem {
+    border-color: #59ff00;
+}
